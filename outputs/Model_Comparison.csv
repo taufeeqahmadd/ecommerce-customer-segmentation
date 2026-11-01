@@ -1,0 +1,10 @@
+Criteria,K-Means,DBSCAN
+Number of clusters,4,2
+Customers in each cluster,"{0: 718, 1: 1174, 2: 897, 3: 1549}","{-1: 79, 0: 2780, 1: 1479}"
+Noise points,0 (every customer is forced into a cluster),79 customers (1.82%)
+Silhouette Score,0.3329,0.2946
+How the Silhouette Score was calculated,On all 4338 customers,Only on the 4259 non-noise customers (noise removed)
+Ability to separate different customer groups,Splits the customers into 4 different value levels (from Champions to Lapsed customers),Finds only 2 broad groups (active vs one-time); the data has no clear empty gaps between groups
+Business interpretability,"High - 4 clear personas, each with a different marketing action","Medium - noise is very useful, but the 2 clusters are too broad for detailed marketing"
+Advantages,Simple and fast; every customer gets a group; we control the number of groups,No need to choose the number of clusters; automatically finds outlier customers (noise)
+Limitations,We must choose K; clusters are round slices of the data; extreme customers can pull the centres,Very sensitive to eps and min_samples; struggles when density is similar everywhere; leaves some customers unlabelled

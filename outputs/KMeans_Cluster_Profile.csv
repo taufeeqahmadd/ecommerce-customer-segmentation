@@ -1,0 +1,5 @@
+KMeans_Cluster,Customers,Avg_Recency,Median_Recency,Avg_Frequency,Median_Frequency,Avg_Monetary,Median_Monetary,Total_Revenue,Pct_of_Customers,Pct_of_Revenue
+0,718,12.21,9.0,13.64,10.0,8011.89,3687.77,5752537.18,16.55,64.73
+1,1174,65.29,52.0,4.19,4.0,1822.98,1355.04,2140183.49,27.06,24.08
+2,897,22.79,20.0,1.92,2.0,486.06,414.2,435999.12,20.68,4.91
+3,1549,192.27,187.0,1.35,1.0,360.55,303.16,558489.1,35.71,6.28
