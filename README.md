@@ -177,7 +177,7 @@ source venv/bin/activate       # Mac / Linux
 pip install -r requirements.txt
 ```
 
-Replace `YOUR_USERNAME` with the GitHub username of the repository owner.
+
 
 **Dataset:** download `Online_Retail.xlsx` from https://archive.ics.uci.edu/dataset/352/online+retail and place it inside the `data/` folder.
 
